@@ -22,7 +22,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">Notification</div>
             <div class="panel-body">
-
+                <h4> Pure JS</h4>
                 {{--Notification--}}
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
@@ -53,6 +53,19 @@
     </div>
 </div>
 
+
+<div class="row">
+    <div class="col-md-4 col-md-offset-1">
+        <div class="panel panel-default">
+            <div class="panel-heading">Notification</div>
+            <div class="panel-body">
+                <h4> Use VueJS</h4>
+                {{--Notification--}}
+                <notifications></notifications>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection
 

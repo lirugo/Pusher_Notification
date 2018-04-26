@@ -35,7 +35,7 @@ class HomeController extends Controller
     public function test(){
         //Persist data in DataBase
         $notif = new Notification();
-            $notif->user_id_from = Auth::user()->id;
+            $notif->user_id_from = 1;
             $notif->title = "Like ur avatar";
             $notif->body = "Extra description here";
         $notif->save();
